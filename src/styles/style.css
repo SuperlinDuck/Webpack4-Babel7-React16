@@ -1,0 +1,24 @@
+html{
+	font-size: 20px;
+	color: blue;
+}
+
+body{
+	background: url('../images/global_bg.jpg');
+}
+
+.init-load-img{
+	width:30px;
+	vertical-align:middle;
+	animation:rotation 1s linear infinite;
+	margin-right:6px;
+}  
+
+@keyframes rotation{
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
